@@ -90,7 +90,7 @@ export const DevCard = ({
 
       {/* Name block */}
       <p className="text-[8px] tracking-[0.22em] text-white/20 mb-2">PORTFOLIO</p>
-      <p className="text-[34px] font-bold tracking-[0.03em] leading-none" style={{ color: accent }}>
+      <p className="text-xl font-bold tracking-[0.03em] leading-none" style={{ color: accent }}>
         {name}
       </p>
 
