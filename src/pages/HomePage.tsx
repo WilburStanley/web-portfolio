@@ -24,7 +24,7 @@ export const HomePage = () => {
               role="SOFTWARE ENGINEER"
               stack={["AI Integration · Automation", "Web & Mobile Development"]}
               socials={socials}
-              qrUrl="https://yourwebsite.com"
+              qrUrl="https://brightlabs-official-website.vercel.app"
               cardId="#001"
             />
           </div>
