@@ -139,7 +139,7 @@ export const DevCard = ({
         {/* Right — QR */}
         <div className="shrink-0 flex flex-col items-center gap-1.5">
           <canvas ref={qrRef} width={88} height={88} />
-          <span className="text-[7px] tracking-[0.15em] text-white/20">SCAN ME</span>
+          <a href={qrUrl} target="_blank" rel="noopener noreferrer" className="text-[7px] tracking-[0.15em] text-white/20">SCAN OR CLICK ME</a>
         </div>
 
       </div>
