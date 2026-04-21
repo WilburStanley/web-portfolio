@@ -1,0 +1,23 @@
+@config "../tailwind.config.ts";
+
+@import "tailwindcss";
+
+#root {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply m-0 px-5 pt-5 bg-surface-950 font-sans;
+  }
+}
