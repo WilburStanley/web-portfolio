@@ -10,7 +10,7 @@ export const Project = () => {
         <div className="flex items-center mb-2 gap-2">
           <Folder />
           <h2 className="font-bold text-lg md:text-xl font-mono">
-            Projects
+            Featured Projects
           </h2>
         </div>
         <Link
