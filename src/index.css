@@ -12,10 +12,6 @@
   flex-direction: column;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 @layer base {
   body {
     @apply m-0 px-5 pt-5 bg-surface-950 font-sans;

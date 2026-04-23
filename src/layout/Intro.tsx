@@ -1,6 +1,25 @@
 import { BadgeCheck, Check, MapPin, Mail } from "lucide-react";
 import { credentials } from "../data/credentials";
-import profilePic from '../assets/profilePic.jpg';
+import profilePic from "../assets/profilePic.jpg";
+import { useEffect, useState } from "react";
+
+export const TypingText = ({ text }: { text: string }) => {
+  const [displayed, setDisplayed] = useState("");
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index >= text.length) return;
+
+    const timeout = setTimeout(() => {
+      setDisplayed((prev) => prev + text[index]);
+      setIndex((prev) => prev + 1);
+    }, 40); // speed (lower = faster)
+
+    return () => clearTimeout(timeout);
+  }, [index, text]);
+
+  return <span>{displayed}</span>;
+};
 
 export const Intro = () => {
   return (
@@ -29,7 +48,7 @@ export const Intro = () => {
         </div>
         {/* Profession */}
         <div className="text-xs md:text-lg text-gray-400 text-left">
-          {credentials.profession.join(" · ")}
+          <TypingText text={credentials.profession.join(" · ")} />
         </div>
         {/* Contact */}
         <a

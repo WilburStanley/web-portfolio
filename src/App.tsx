@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectPage />} />
