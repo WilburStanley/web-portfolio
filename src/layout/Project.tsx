@@ -17,7 +17,7 @@ export const Project = () => {
           to="/projects"
           className="group flex items-center justify-center gap-2 font-medium text-gray-300 hover:text-white transition-colors duration-200"
         >
-          <span className="text-sm md:text-base">View All</span>
+          <span className="text-xs md:text-base">View All</span>
           <ExternalLink className="w-4 h-4 opacity-60 group-hover:opacity-100 transition-opacity duration-200" />
         </Link>
       </div>

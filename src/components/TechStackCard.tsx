@@ -11,8 +11,7 @@ export const TechStackCard = ({
         {stacklist.map((item, index) => (
           <span
             key={index}
-            className="text-base text-gray-300 px-2 bg-surface-900 border border-white/10"
-          >
+            className="text-base text-gray-300 px-2 bg-surface-900 border border-white/10 hover:bg-gray-300 hover:text-black transition-all duration-300 ease-out cursor-default">
             {item}
           </span>
         ))}

@@ -27,7 +27,7 @@ export const ProjectCard = ({
       </p>
       <div className="flex flex-wrap items-center gap-2 mb-4">
         <span className="text-xs sm:text-sm text-gray-400">
-          Tags:
+          Technologies:
         </span>
         <ul className="flex flex-wrap gap-2">
           {tags.map((tag, index) => (
