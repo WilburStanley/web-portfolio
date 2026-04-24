@@ -7,9 +7,9 @@ export const Project = () => {
   return(
     <div className="fw-full text-white text-left bg-surface-900 p-5">
       <div className="flex items-center justify-between mb-2">
-        <div className="flex items-center mb-2 gap-2">
+        <div className="flex items-center gap-2">
           <Folder />
-          <h2 className="font-bold text-lg md:text-xl font-mono">
+          <h2 className="font-bold text-base md:text-lg font-mono">
             Featured Projects
           </h2>
         </div>
@@ -17,7 +17,7 @@ export const Project = () => {
           to="/projects"
           className="group flex items-center justify-center gap-2 font-medium text-gray-300 hover:text-white transition-colors duration-200"
         >
-          <span>View All</span>
+          <span className="text-sm md:text-base">View All</span>
           <ExternalLink className="w-4 h-4 opacity-60 group-hover:opacity-100 transition-opacity duration-200" />
         </Link>
       </div>
