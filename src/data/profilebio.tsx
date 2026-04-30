@@ -10,7 +10,7 @@ const profilebio = [
 
   <>
     I build scalable web apps with {bold("React & TypeScript")}, native Android apps with {bold("Java & Kotlin")}, and integrate third-party APIs for seamless digital experiences.
-    My primary focus is {bold("native Android development")}, with openness to cross-platform solutions like {bold("Flutter")} and {bold("React Native")}, and I use {bold("Python")} for automation and backend tooling.
+    My primary focus is {bold("native Android development")}, with openness to cross-platform solutions like {bold("React Native")} and {bold("Flutter")}, and I use {bold("Python")} for automation and backend tooling.
   </>,
 
   <>
