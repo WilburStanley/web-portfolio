@@ -9,11 +9,11 @@ export const techstacklist: TechStackProps[] = [
     stacklist: ["Java", "Kotlin", "Python", "Dart", "C++", "C#"],
   },
   {
-    category: "Web",
+    category: "Web Development",
     stacklist: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Vite", "Node.js"],
   },
   {
-    category: "Mobile",
+    category: "Mobile Development",
     stacklist: ["Android", "Flutter", "React Native"],
   },
   {
@@ -22,6 +22,6 @@ export const techstacklist: TechStackProps[] = [
   },
   {
     category: "Developer Tools",
-    stacklist: ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "PyCharm", "CLion", "Android Studio", "Vercel", "Render", "Firebase"],
+    stacklist: ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "PyCharm", "CLion", "Android Studio", "Expo", "Vercel", "Render", "Firebase"],
   },
 ];
