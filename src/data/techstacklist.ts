@@ -22,6 +22,6 @@ export const techstacklist: TechStackProps[] = [
   },
   {
     category: "Developer Tools",
-    stacklist: ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "PyCharm", "CLion", "Android Studio", "Vercel", "Render"],
+    stacklist: ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "PyCharm", "CLion", "Android Studio", "Vercel", "Render", "Firebase"],
   },
 ];
