@@ -5,23 +5,31 @@ export type TechStackProps = {
 
 export const techstacklist: TechStackProps[] = [
   {
-    category: "Languages",
-    stacklist: ["Java", "Kotlin", "Python", "Dart", "C++", "C#"],
-  },
-  {
     category: "Web Development",
     stacklist: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Vite", "Node.js"],
   },
   {
-    category: "Mobile Development",
-    stacklist: ["Android", "Flutter", "React Native"],
+    category: "Native Android Development",
+    stacklist: ["Java", "Kotlin", "Android SDK", "XML Layouts"],
   },
   {
-    category: "Databases",
-    stacklist: ["SQL", "SQLite", "MySQL"],
+    category: "Cross-Platform Mobile Development",
+    stacklist: ["React Native", "NativeWind", "Flutter", "Dart"],
+  },
+  {
+    category: "AI, Automation & Embedded",
+    stacklist: ["Python", "C++"],
+  },
+  {
+    category: "Databases & Backend Services",
+    stacklist: ["SQL", "SQLite", "MySQL", "Firebase"],
   },
   {
     category: "Developer Tools",
-    stacklist: ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "PyCharm", "CLion", "Android Studio", "Expo", "Vercel", "Render", "Firebase"],
+    stacklist: [
+      "Git", "GitHub", "VS Code",
+      "Android Studio", "IntelliJ IDEA", "PyCharm", "CLion",
+      "Expo", "Vercel", "Render",
+    ],
   },
 ];
