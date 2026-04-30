@@ -22,14 +22,14 @@ export const techstacklist: TechStackProps[] = [
   },
   {
     category: "Databases & Backend Services",
-    stacklist: ["SQL", "SQLite", "MySQL", "Firebase"],
+    stacklist: ["SQL", "SQLite", "MySQL", "Firebase", "Render"],
   },
   {
     category: "Developer Tools",
     stacklist: [
       "Git", "GitHub", "VS Code",
       "Android Studio", "IntelliJ IDEA", "PyCharm", "CLion",
-      "Expo", "Vercel", "Render",
+      "Expo", "Vercel",
     ],
   },
 ];
