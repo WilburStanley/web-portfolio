@@ -10,5 +10,5 @@ export const experiencelist: ExperienceProps[] = [
   { role: 'ICT - Mobile App & Web Development', description: "STI College Lipa", year: 2024 },
   { role: 'Android Development', description: "Published my first app & Freelance", year: 2023 },
   { role: 'Web Development', description: "Freelance", year: 2022 },
-  { role: 'std::cout << "Hello World"', description: "Wrote my first line of code", year: 2021 },
+  { role: 'std::cout << "Hello World";', description: "Wrote my first line of code", year: 2021 },
 ];
