@@ -1,3 +1,5 @@
+import { ExternalLink } from "lucide-react";
+
 export type ProjectCardProps = {
   app: string;
   description: string;
@@ -43,9 +45,10 @@ export const ProjectCard = ({
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-surface-200 text-black py-1 px-2 sm:px-3 text-xs sm:text-sm hover:opacity-80 transition font-medium"
+        className="inline-flex items-center gap-2 bg-surface-200 text-black py-1 px-2 sm:px-3 text-xs sm:text-sm hover:opacity-80 transition font-medium"
       >
         {urlLabel}
+        <ExternalLink size={14} strokeWidth={2.5} />
       </a>
     </div>
   )
