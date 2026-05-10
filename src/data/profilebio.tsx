@@ -14,7 +14,7 @@ const profilebio = [
   </>,
 
   <>
-    I am currently expanding my skills in {bold("AI integration")}, {bold("computer vision")}, and {bold("machine learning")}, exploring how these can be applied to real world applications.
+    I am currently expanding my skills in {bold("AI integration")}, {bold("computer vision")}, and {bold("machine learning")}, with a focus on practical real-world applications.
   </>,
 ];
 
