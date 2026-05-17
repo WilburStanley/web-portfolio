@@ -10,7 +10,7 @@ export const techstacklist: TechStackProps[] = [
   },
   {
     category: "Native Android Development",
-    stacklist: ["Java", "Kotlin", "Android SDK", "XML Layouts"],
+    stacklist: ["Kotlin", "Java", "Android SDK", "Jetpack Compose", "XML Layouts"],
   },
   {
     category: "Cross-Platform Mobile Development",
